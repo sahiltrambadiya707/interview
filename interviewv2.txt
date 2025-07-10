@@ -1,0 +1,237 @@
+// INTRO
+
+- Hello, how are you feeling? My name is [your name], and I'm going to be your interviewer today.
+- Tell me about your self
+- How many project done by you in your company?
+- Can you tell us about the last project you worked on?
+- Do you faced any difficult problem in your any project?
+- If yes then tell me how you solved that problem
+- Tell us about a time you weren’t able to solve an issue. What did you do?
+
+// REACT JS QUESTIONS
+
+- What is React?
+- Why react is so popular then other library and framework
+- How to create react project
+- What was the purpose of package.json and package-lock.json
+- How to change the port in react
+- How to use https instead of http in create-react-app?
+- What is JSX?
+- Can browsers read a JSX file?
+- What are the different phases of component lifecycle?
+- What are the lifecycle methods of React?
+- What are hooks? (useState, useEffect, useRef, useSelector, useCallback, useMemo, useReducer)
+- How many hook are available in react js Tell me whatever you know.
+- What are Higher-Order components?
+- How to create props proxy for HOC component?
+- What is the difference between Element and Component?
+- What is Virtual DOM and How Virtual DOM works?
+- What is state in React?
+- What are props in React?
+- What is the difference between state and props?
+- What is prop drilling?
+- What is Lifting State Up in React?
+- How to set state with a dynamic key name?
+- How to apply validation on props in React?
+- What are Pure Components?
+- What are controlled components & uncontrolled components?
+- What are stateless & stateful components?
+- How to loop inside JSX?
+- Why React uses className over class attribute?
+- What is "key" prop and what is the benefit of using it in arrays of elements?
+- What is the impact of indexes as keys?
+- How to programmatically trigger click event in React?
+- What are fragments?
+- What is context?
+- What is children prop?
+- What is reconciliation?
+- How to update a component every second?
+- Is lazy function supports named exports?
+- How do you conditionally render components?
+- How to Prevent the Re-Rendering
+- Error Boundaries
+- Lazy Loading
+- XSS Prevention (Cross-Site Scripting)
+- CSRF Protection (Cross-Site Request Forgery)
+- What is code-splitting?
+- What is the benefit of strict mode?
+- What is dynamic import?
+- What is React Router?
+- How to Protect the route
+- What is the purpose of push and replace methods of history?
+- What is Redux?
+- What is the difference between mapStateToProps() and mapDispatchToProps()?
+- Can I dispatch an action in reducer?
+- Redux is Sync or Async
+- How to call async function in redux
+- What is Redux DevTools?
+
+
+// JAVASCRIPT QUESTIONS
+
+- What is JavaScript?
+- Why JavaScript called JavaScript dynamically typed language
+- What is the difference between JavaScript and ECMAScript?
+- JavaScript is synchronous or asynchronous?
+- What are primitive data types?
+- What is the difference between null and undefined in JavaScript?
+- What are the differences between undeclared and undefined variables?
+- Discuss the differences between the "let", "const", and "var" keywords in JavaScript for variable declaration.
+- Explain the concept of closure in JavaScript
+- Explain the concept of hoisting in JavaScript and how it affects variable declarations and function definitions.
+- How can you manipulate the DOM (Document Object Model) using JavaScript?
+- What is the difference between window and document
+- How does JavaScript handle asynchronous programming?
+- What is a promise.
+- Why do you need a promise.
+- What are the three states of promise
+- What is async/await
+- How to solve promises (How many way to solve promise)
+- What is difference between async/await and then-catch
+- What is the purpose of the race method in promise
+- How can you handle errors in JavaScript?
+- What is Callback in JavaScript?
+- What is a callback hell?
+- What are arrow functions in JavaScript? How do they differ from regular functions?
+- What is anonymous function
+- IIFE(Immediately Invoked Function Expression)
+- What is the currying Function
+- What are lambda or arrow functions
+- What is a higher order function
+- What is the Temporal Dead Zone
+- How do you decode or encode a URL in JavaScript?
+- What is typeof operator
+- What is an event flow
+- What is event bubbling
+- What is event capturing
+- What is a prototype chain
+- What is the purpose of void 0
+- Is JavaScript a compiled or interpreted language
+- Is JavaScript a case-sensitive language
+- What is debouncing?
+- What is throttling?
+- Optional chaining
+- How do you check if a key exists in an object
+- What is nullish coalescing operator (??)?
+- What are the pros and cons of for loop
+- What is tree shaking
+- What is the need of tree shaking
+- What is a conditional operator in javascript
+- What is a freeze method
+- What is the purpose of seal method
+- What is a polyfill
+- What are javascript accessors
+- What is Minification
+- How do you debug a JavaScript code?
+- What are the two types of loops in javascript
+- How do you find min and max value in an array
+- How do you find min and max values without Math functions
+- Rest parameter and spread operator
+- Swapping values of two variables using destructuring
+- Local Storage - Session Storage - Cookies 
+----- 
+- What is a service worker
+- How do you manipulate DOM using a service worker
+- How do you check web workers browser support
+- Give an example of a web worker - 49
+- What are the restrictions of web workers on DOM
+- What are global variables
+- What is BOM (Browser Object Model)
+- What is an arguments object - 128
+- What is the way to find the number of parameters expected by a function
+- How do you detect a mobile browser
+- How do you get the image width and height using JS
+- What is destructuring aliases
+- How do you create an array with some data
+- Is it possible to add CSS to console messages
+- Security
+- Auth
+- Form
+
+// NODE JS QUESTIONS 
+
+- What is Node.js? Where can you use it?
+- Why use Node.js?
+- Explain how does Node.js work?
+- Explain event-driven programming in Node.js. How does it differ from traditional synchronous programming?
+- How does the Node.js global object differ from the window object in a browser environment?
+- What is the role of the Node.js Cluster module? How can you implement load balancing using clusters, and what are the potential challenges?
+- Explain the concept of microservices. How can Node.js be beneficial in building and managing microservices architectures?
+- How can you handle long-running tasks in a Node.js application without blocking the event loop? Discuss different approaches, including the use of worker queues and message brokers.
+-
+- What is an event loop
+- What is call stack
+- What is an event queue
+- What are the core modules of Node,js?
+- What is libuv?
+- What is Event Emmitter?
+- What is Child processes
+- What is Cluster
+- What is purpose of Buffer class in Node?
+- How to use Buffer in Node.js?
+- What are streams and what are types of streams available in Node.js?
+- What is Chaining in Node?
+- How to make Post request in Node.js?
+- Explain the concept of middleware in Node.js.
+- What are the different types of HTTP requests?
+- How would you connect a MongoDB database to Node.js?
+- What is the purpose of NODE_ENV?
+- What is the purpose of the module.exports?
+- What is a passport in Node.js?
+- What is use of Path ?
+- What we can get into __filename & __dirname
+- How do you find operating system details
+
+// EXPRESS JS QUESTIONS
+
+- What is Express.js, and why do you use it?
+- How does Express.js handle routing?
+- How does Express.js handle middleware?
+- How does Express.js handle request and response objects?
+- How does Express.js handle error handling?
+- How does Express.js handle file uploads
+- What is the difference between res.send() and res.json() in Express.js?
+- What is the use of app.use() in Express.js?
+- What is the purpose of the next() function in Express.js?
+- What is the difference between app.route() and app.use() in Express.js?
+- What is the purpose of the req.params object in Express.js?
+- What is the difference between req.query and req.params in Express.js?
+
+// MONGODB
+
+- Explain what is MongoDB?
+- How many indexes does MongoDB create by default for a new collection?
+- Which are the most important features of MongoDB?
+- Compare SQL databases and MongoDB at a high level
+- Does MongoDB need a lot space of Random Access Memory (RAM)? if no WHY ?
+- What are Indexes in MongoDB? How Many Type of Indexes ?
+- What is BSON in MongoDB?
+- What Is Replication In MongoDB?
+- Does MongoDB provide a facility to do text searches? How?
+- Explain the structure of ObjectID in MongoDB
+- What is sharding?
+- What is Transition?
+- Is there an “upsert” option in the mongodb insert command? what is the use of that ?
+- What is Aggregation in MongoDB?
+- What is a cluster in MongoDB?
+- How can I combine data from multiple collections into one collection?
+- How to query MongoDB with %like%?
+- Find objects between two dates MongoDB
+- What is Atomicity 
+- When to Redis or MongoDB?
+- What is facet ?
+- What is bucket ?
+- What is geoNear ?
+- What is OUT ?
+- What is densify ?
+
+
+// Ending
+
+- What part of your resume are you most proud of?
+- What abilities make you unique?
+- What are the things that motivate you?
+- What led you to apply for this job role?
+- Why do you want to work for this organization?
+- What are your career objectives?
+- Tell us the qualities that make you the best candidate for this position.
