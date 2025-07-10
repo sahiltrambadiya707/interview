@@ -1,15 +1,3 @@
----
-
-### ✅ FORMAT:
-
-Each section is grouped by:
-
-* **Technology**
-* **Difficulty Level (Basic / Mid / Expert)**
-* **Well-formatted questions**
-
----
-
 ## ⚛️ REACT.js
 
 ---
