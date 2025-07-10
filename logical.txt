@@ -1,0 +1,235 @@
+What would be the output of following code?
+
+// LOGICAL QUESTIONS 
+
+[1, 2, 3, [4, 5]] = [1, 2, 3, 4, 5] //need this output
+
+1 + "2" + "2" -> 122
+1 + +"2" + "2" -> 32
+1 + -"1" + "2" -> 02
++"1" + "1" + "2" -> 112
+typeof typeof 1 -> string 
+2 + true -> 3
+[] == ![] -> true
+NaN === NaN -> false
+!!null -> false
+[1, 2, 3] + [4, 5, 6] -> '1,2,34,5,6'
+Number(true) -> 1
+typeof null -> object
+typeof NaN === "number" -> true
+[] + [] -> ""
+
+0.1 + 0.2 === 0.3; // -> false
+
+1. [null] == ''     
+2. [null] == 0      
+3. [undefined] == '' 
+4. [undefined] == 0 
+
+==========================================================================
+var a = [1, 2, 3];
+a[10] = 10;
+a.length // output
+11
+==========================================================================
+console.log(test());
+
+function test() {
+  console.log("test 1");
+}
+function test() {
+  console.log("test 2");
+}
+
+
+const test = () => {
+  console.log("test 1");
+};
+const test = () => {
+  console.log("test 2");
+};
+
+console.log(test());
+==========================================================================
+var a = 5;
+
+function test() {
+  var a = 10;
+  console.log(a); 
+}
+
+test();
+console.log(a); 
+// 1 = a
+// 2 = b
+==========================================================================
+- Execution Context and Scoping
+var x = 10;
+function foo() {
+   console.log(x);
+   var x = 20;
+}
+foo();
+
+Ans: undefined
+==========================================================================
+- Asynchronous Operations
+async function asyncFunc() {
+  console.log('A');
+  await new Promise(resolve => setTimeout(resolve, 1000));
+  console.log('B');
+}
+console.log('C');
+asyncFunc();
+console.log('D');
+
+Ans: C, A, D, B.
+==========================================================================
+- Context and “this” Manipulation
+const obj = {
+  value: 42,
+  getValue: function() {
+      return this.value;
+  }
+};
+
+const anotherObj = {
+  value: 99
+};
+
+console.log(obj.getValue());
+console.log(obj.getValue.call(anotherObj));
+
+Ans: 42, 99.
+==========================================================================
+- Promise Behavior
+console.log('Start');
+
+Promise.resolve().then(() => console.log('Promise 1'));
+setTimeout(() => console.log('Timeout 1'), 0);
+
+Promise.resolve().then(() => console.log('Promise 2'));
+setTimeout(() => console.log('Timeout 2'), 0);
+
+console.log('End');
+
+Ans: Start, End, Promise 1, Promise 2, Timeout 1, Timeout 2.
+==========================================================================
+greeting();
+var greeting = function() {
+  console.log("First greeting);
+}
+greeting();
+function greeting() {
+  console.log("second greeting");
+}
+greeting();
+
+Ans: Second greetings, First greetings, First greetings. 
+==========================================================================
+for (var i = 0; i < 4; i++) {
+  // global scope
+  setTimeout(() => console.log(i));
+}
+
+for (let i = 0; i < 4; i++) {
+  // block scope
+  setTimeout(() => console.log(i));
+}
+==========================================================================
+function User(name) {
+  this.name = name || "JsGeeks";
+}
+
+var person = new User("xyz")["location"] = "USA";
+console.log(person);
+
+// the console will show you that the result of this is "USA"
+==========================================================================
+var objA = {prop1: 42};
+var objB = objA; 
+objB.prop1 = 90;
+console.log(objA) 
+
+{prop1: 90}
+==========================================================================
+var arrA = [0,1,2,3,4,5];
+var arrB = arrA;
+arrB[0]=42;
+console.log(arrA)
+
+[42,1,2,3,4,5]
+==========================================================================
+console.log(employeeId);
+var employeeId = '19000';
+
+undefined
+==========================================================================
+console.log("1. Start");
+
+// process.nextTick (Executes before Promises in the microtask queue)
+process.nextTick(() => console.log("2. process.nextTick"));
+
+// Promise (Micro-task)
+Promise.resolve().then(() => console.log("3. Promise resolved"));
+
+// setTimeout (Macro-task)
+setTimeout(() => console.log("6. setTimeout with 0ms delay"), 0);
+
+// setImmediate (Macro-task, similar to setTimeout but executes after I/O)
+setImmediate(() => console.log("7. setImmediate"));
+
+// Synchronous blocking operation (simulating heavy computation)
+for (let i = 0; i < 1e9; i++) {} 
+
+console.log("4. Synchronous end");
+
+1. Start
+4. Synchronous end
+2. process.nextTick
+3. Promise resolved
+6. setTimeout with 0ms delay
+7. setImmediate
+========================================================================
+console.log(a); // undefined 
+var a = 5;
+console.log(a); // 5
+========================================================================
+var a = 5;
+(function () {
+    console.log(a);
+    var a = 10;
+    console.log(a);
+})();
+========================================================================
+
+console.log("Start");
+
+setTimeout(() => console.log("Timeout"), 0);
+
+Promise.resolve().then(() => console.log("Promise"));
+
+console.log("End");
+
+========================================================================
+console.log("1");
+
+setTimeout(() => console.log("2"), 0);
+
+Promise.resolve().then(() => console.log("3")).then(() => console.log("4"));
+
+console.log("5");
+========================================================================
+
+const b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < 10; i++) {
+  setTimeout(() => console.log(b[i]), 1000);
+}
+
+for (var i = 0; i < 10; i++) {
+  setTimeout(() => console.log(b[i]), 1000);
+}
+
+
+
